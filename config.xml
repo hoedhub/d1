@@ -1,0 +1,17 @@
+<?xml version='1.0' encoding='utf-8'?>
+<widget id="com.myapp.mobile" version="3.1"
+    xmlns="http://www.w3.org/ns/widgets">
+    <name>ديوان شراب الوصل</name>
+    <description>للإمام فخر الدين الشيخ محمد عثمان عبده البرهاني.</description>
+    <author email="info@myapp.com" href="https://www.facebook.com/Burhaniya.Group">الجروب العام للطريقة البرهانية</author>
+    <preference name="phonegap-version" value="cli-8.0.0" />
+    <preference name="permissions" value="none" />
+    <preference name="orientation" value="default" />
+    <preference name="target-device" value="universal" />
+    <preference name="fullscreen" value="false" />
+    <plugin name="cordova-plugin-inappbrowser" spec="1.3.0" />
+    <plugin name="cordova-plugin-device" spec="1.1.2" />
+    <plugin name="cordova-plugin-splashscreen" spec="3.2.2" />
+    <icon src="/icon.png" />
+    <splash src="/splash.png" />
+</widget>

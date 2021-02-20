@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html dir="rtl" lang="ar">
+
+<head>
+    <!-- No caching -->
+    <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate" />
+    <meta http-equiv="Pragma" content="no-cache" />
+    <meta http-equiv="Expires" content="0" />
+    <!-- end No caching -->
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="text/html;charset=UTF-8,width=device-width, initial-scale=1">
+</head>
+<!-- setCookie('bgColor', '', true); -->
+<body onload="hideClear();loadSettings();">
+    <div class="main">
+        <button onclick="topFunction()" id="toTop" title="Go to top"><u>^</u></button>
+        <span id="clearButt" class="float" onclick="clearInput()">
+            <span class="my-float">x</span>
+        </span>
+        <input type="text" id="myInput" onfocus="showClear()" onkeyup="filterTables();showClear()" placeholder="بحث..."
+            title="الحروف الهجائية فقط">
+    </div>
+    <div class="navbar">
+        <a class="link" href="javascript:changeFontSize(2)">أكبر++</a>
+        <a class="link" href="javascript:changeFontSize(-2)">أصغر--</a>
+        <div class="link">
+            <label for="head">الخلفية</label>
+            <input type="color" id="khColor" name="khColor" value="#e66465" oninput="changeColor()" />
+        </div>
+    </div>
+    <script src="js/script.js"></script>
+</body>
+
+</html>
